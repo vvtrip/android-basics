@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:src="@drawable/udacity"
+       android:scaleType="centerCrop"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UDACITY"
+        android:textColor="#FFF"
+        android:fontFamily="monospace"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:id="@+id/udacity"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:text="650-555-5555"
+        android:textColor="#FFF"
+        android:fontFamily="monospace"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:layout_below="@id/udacity"
+        android:id="@+id/num"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/udacity"
+        android:autoLink="web"
+        android:textColor="#FFF"
+        android:fontFamily="monospace"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:layout_below="@id/num"
+        android:id="@+id/web"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/map"
+        android:textColor="#FFF"
+        android:fontFamily="monospace"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:layout_below="@id/web"
+        android:autoLink="map"
+        />
+
+</RelativeLayout>
