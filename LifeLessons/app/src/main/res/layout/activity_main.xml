@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:padding="16dp"
+        android:padding="@dimen/pad"
         android:background="@color/blck"
         android:textColor="@color/wht"
         android:layout_centerHorizontal="true"
@@ -27,7 +27,7 @@
         android:layout_alignParentBottom="true"
         android:background="@color/blck"
         android:textColor="@color/wht"
-        android:padding="16dp"
+        android:padding="@dimen/pad"
         android:text="@string/anon"
         android:gravity="center"/>
 
