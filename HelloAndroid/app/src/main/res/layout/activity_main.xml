@@ -6,12 +6,13 @@
     android:layout_height="match_parent"
     >
 
-   <ImageView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:src="@drawable/udacity"
-       android:scaleType="centerCrop"
-       />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/udacity" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,53 +20,81 @@
         android:textColor="#FFF"
         android:fontFamily="monospace"
         android:layout_marginTop="15dp"
-        android:layout_marginLeft="15dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginBottom="10dp"
         android:textSize="20dp"
-        android:id="@+id/udacity"
+        android:id="@+id/udacitytext"
         />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:src="@drawable/dial"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="14dp"
+        android:id="@+id/diallogo"
+        android:layout_below="@id/udacitytext"/>
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:autoLink="phone"
-        android:text="650-555-5555"
+        android:text="650-555-5555 "
         android:textColorLink="#FFF"
         android:textColor="#FFF"
         android:fontFamily="monospace"
-        android:layout_marginLeft="15dp"
         android:layout_marginBottom="10dp"
         android:textSize="20dp"
-        android:layout_below="@id/udacity"
+        android:layout_toRightOf="@id/diallogo"
+        android:layout_below="@id/udacitytext"
         android:id="@+id/num"
         />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:src="@drawable/udct"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="14dp"
+        android:id="@+id/udctlogo"
+        android:layout_below="@id/diallogo"/>
 
     <TextView
         android:layout_width="wrap_content"
-        android:textColorLink="#FFF"
-        android:layout_height="wrap_content"
-        android:text="@string/udacity"
+        android:layout_height="30dp"
         android:autoLink="web"
+        android:text="@string/udacity"
+        android:textColorLink="#FFF"
         android:textColor="#FFF"
         android:fontFamily="monospace"
-        android:layout_marginLeft="15dp"
         android:layout_marginBottom="10dp"
         android:textSize="20dp"
+        android:layout_toRightOf="@id/udctlogo"
         android:layout_below="@id/num"
-        android:id="@+id/web"/>
+        android:id="@+id/web"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:src="@drawable/mapmarker"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/maplogo"
+        android:layout_below="@id/udctlogo"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autoLink="map"
         android:text="@string/map"
-        android:textColor="#FFF"
         android:textColorLink="#FFF"
+        android:textColor="#FFF"
         android:fontFamily="monospace"
-        android:layout_marginLeft="15dp"
         android:layout_marginBottom="10dp"
         android:textSize="20dp"
+        android:layout_toRightOf="@id/maplogo"
         android:layout_below="@id/web"
-        android:autoLink="map"
+        android:id="@+id/lo"
         />
 
 </RelativeLayout>
