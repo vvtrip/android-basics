@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="medd">16dp</dimen>
-    <dimen name="meds">16sp</dimen>
+    <dimen name="medd">16dp</dimen>  <!--medium dp-->
+    <dimen name="meds">16sp</dimen>  <!--medium sp-->
+    <dimen name="smd">8dp</dimen> <!--small dp-->
+    <dimen name="buttonwidth">48dp</dimen>
+    <dimen name="buttonheight">48dp</dimen>
 </resources>

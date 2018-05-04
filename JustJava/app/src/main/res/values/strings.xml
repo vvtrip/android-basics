@@ -2,4 +2,7 @@
     <string name="app_name">JustJava</string>
     <string name="quan">Quantity</string>
     <string name="but">Order</string>
+    <string name="prc">Price</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
 </resources>
