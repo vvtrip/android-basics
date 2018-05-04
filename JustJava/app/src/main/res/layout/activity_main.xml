@@ -30,9 +30,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/smd"
-            android:layout_marginTop="13dp"
+            android:layout_marginTop="@dimen/mgntp"
             android:layout_toRightOf="@id/min"
-            android:text="0"
+            android:text="@string/nil"
             android:textColor="@color/blck"
             android:textSize="@dimen/meds" />
 
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/medd"
         android:layout_marginTop="@dimen/medd"
-        android:text="$0"
+        android:text="@string/nilprc"
         android:textColor="@color/blck"
         android:textSize="@dimen/meds" />
 

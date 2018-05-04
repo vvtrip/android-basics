@@ -16,19 +16,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
-        android:fontFamily="sans-serif-light"
-        android:text="Happy Birthday Vaishali !"
-        android:layout_margin="20dp"
-        android:textSize="27dp"/>
+        android:textColor="@color/wt"
+         android:text="@string/hbd"
+        android:layout_margin="@dimen/mgn"
+        android:textSize="@dimen/txtsz"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
-        android:fontFamily="sans-serif-light"
-        android:text="From , Vaibhav "
-        android:layout_margin="20dp"
-        android:textSize="27dp"
+        android:textColor="@color/wt"
+        android:text="@string/greetings"
+        android:layout_margin="@dimen/mgn"
+        android:textSize="@dimen/txtsz"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
          />

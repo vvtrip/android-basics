@@ -5,4 +5,5 @@
     <dimen name="smd">8dp</dimen> <!--small dp-->
     <dimen name="buttonwidth">48dp</dimen>
     <dimen name="buttonheight">48dp</dimen>
+    <dimen name="mgntp">13dp</dimen>
 </resources>

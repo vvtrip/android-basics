@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mgntp">15dp</dimen>
+    <dimen name="mgnlft">16dp</dimen>
+    <dimen name="mgnbtm">10dp</dimen>
+    <dimen name="txtsz">20dp</dimen>
+    <dimen name="ltwd">20dp</dimen>
+    <dimen name="ltht">30dp</dimen>
+    <dimen name="lgmgbt">14dp</dimen>
+    <dimen name="lgmglt">16dp</dimen>
+    <dimen name="lgmgrt">16dp</dimen>
+</resources>

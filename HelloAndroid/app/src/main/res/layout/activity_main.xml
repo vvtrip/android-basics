@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
 
     <ImageView
         android:layout_width="match_parent"
@@ -13,88 +11,88 @@
         android:layout_alignParentTop="true"
         android:scaleType="centerCrop"
         android:src="@drawable/udacity" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="UDACITY"
-        android:textColor="#FFF"
-        android:fontFamily="monospace"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginBottom="10dp"
-        android:textSize="20dp"
         android:id="@+id/udacitytext"
-        />
-    <ImageView
-        android:layout_width="20dp"
-        android:layout_height="30dp"
-        android:src="@drawable/dial"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="14dp"
-        android:id="@+id/diallogo"
-        android:layout_below="@id/udacitytext"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:autoLink="phone"
-        android:text="650-555-5555 "
-        android:textColorLink="#FFF"
-        android:textColor="#FFF"
-        android:fontFamily="monospace"
-        android:layout_marginBottom="10dp"
-        android:textSize="20dp"
-        android:layout_toRightOf="@id/diallogo"
-        android:layout_below="@id/udacitytext"
-        android:id="@+id/num"
-        />
-    <ImageView
-        android:layout_width="20dp"
-        android:layout_height="30dp"
-        android:src="@drawable/udct"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="14dp"
-        android:id="@+id/udctlogo"
-        android:layout_below="@id/diallogo"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:autoLink="web"
-        android:text="@string/udacity"
-        android:textColorLink="#FFF"
-        android:textColor="#FFF"
-        android:fontFamily="monospace"
-        android:layout_marginBottom="10dp"
-        android:textSize="20dp"
-        android:layout_toRightOf="@id/udctlogo"
-        android:layout_below="@id/num"
-        android:id="@+id/web"
-        />
-    <ImageView
-        android:layout_width="20dp"
-        android:layout_height="30dp"
-        android:src="@drawable/mapmarker"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:id="@+id/maplogo"
-        android:layout_below="@id/udctlogo"/>
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:autoLink="map"
-        android:text="@string/map"
-        android:textColorLink="#FFF"
-        android:textColor="#FFF"
+        android:layout_marginBottom="@dimen/mgnbtm"
+        android:layout_marginLeft="@dimen/mgnlft"
+        android:layout_marginTop="@dimen/mgntp"
         android:fontFamily="monospace"
-        android:layout_marginBottom="10dp"
-        android:textSize="20dp"
-        android:layout_toRightOf="@id/maplogo"
-        android:layout_below="@id/web"
+        android:text="@string/ud"
+        android:textColor="@color/wt"
+        android:textSize="@dimen/txtsz" />
+
+    <ImageView
+        android:id="@+id/diallogo"
+        android:layout_width="@dimen/ltwd"
+        android:layout_height="@dimen/ltht"
+        android:layout_below="@id/udacitytext"
+        android:layout_marginBottom="@dimen/lgmgbt"
+        android:layout_marginLeft="@dimen/lgmglt"
+        android:layout_marginRight="@dimen/lgmgrt"
+        android:src="@drawable/dial" />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ltht"
+        android:layout_below="@id/udacitytext"
+        android:layout_marginBottom="@dimen/mgnbtm"
+        android:layout_toRightOf="@id/diallogo"
+        android:autoLink="phone"
+        android:fontFamily="monospace"
+        android:text="@string/num"
+        android:textColor="@color/wt"
+        android:textColorLink="@color/wt"
+        android:textSize="@dimen/txtsz" />
+
+    <ImageView
+        android:id="@+id/udctlogo"
+        android:layout_width="@dimen/ltwd"
+        android:layout_height="@dimen/ltht"
+        android:layout_below="@id/diallogo"
+        android:layout_marginBottom="@dimen/lgmgbt"
+        android:layout_marginLeft="@dimen/lgmglt"
+        android:layout_marginRight="@dimen/lgmgrt"
+        android:src="@drawable/udct" />
+
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ltht"
+        android:layout_below="@id/num"
+        android:layout_marginBottom="@dimen/mgnbtm"
+        android:layout_toRightOf="@id/udctlogo"
+        android:autoLink="web"
+        android:fontFamily="monospace"
+        android:text="@string/udacity"
+        android:textColor="@color/wt"
+        android:textColorLink="@color/wt"
+        android:textSize="@dimen/txtsz" />
+
+    <ImageView
+        android:id="@+id/maplogo"
+        android:layout_width="@dimen/ltwd"
+        android:layout_height="@dimen/ltht"
+        android:layout_below="@id/udctlogo"
+        android:layout_marginLeft="@dimen/lgmglt"
+        android:layout_marginRight="@dimen/lgmgrt"
+        android:src="@drawable/mapmarker" />
+
+    <TextView
         android:id="@+id/lo"
-        />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web"
+        android:layout_marginBottom="@dimen/mgnbtm"
+        android:layout_toRightOf="@id/maplogo"
+        android:autoLink="map"
+        android:fontFamily="monospace"
+        android:text="@string/map"
+        android:textColor="@color/wt"
+        android:textColorLink="@color/wt"
+        android:textSize="@dimen/txtsz" />
 
 </RelativeLayout>

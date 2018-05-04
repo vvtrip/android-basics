@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="no">0dp</dimen>
+    <dimen name="teamfontsize">14sp</dimen>
+    <dimen name="smpad">4dp</dimen>
+    <dimen name="scrsize">56sp</dimen>
+    <dimen name="btmgn">8dp</dimen>
+    <dimen name="bxw">1dp</dimen>
+    <dimen name="bxh">300dp</dimen>
+    <dimen name="bxmgntop">40dp</dimen>
+    <dimen name="resetmgn">32dp</dimen>
+</resources>
