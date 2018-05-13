@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/geo"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/back"
-        >
+        android:orientation="vertical">
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,14 +23,18 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q1"
+                android:textColor="@color/black"
 
                 android:textSize="@dimen/medium" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q1q"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
@@ -37,32 +43,32 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q1op1"
                     android:id="@+id/q1c1"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q1op2"
+                    android:checked="false"
+                    android:text="@string/q1op1" />
+
+                <RadioButton
                     android:id="@+id/q1c2"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q1op3"
+                    android:checked="false"
+                    android:text="@string/q1op2" />
+
+                <RadioButton
                     android:id="@+id/q1c3"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q1op4"
+                    android:checked="false"
+                    android:text="@string/q1op3" />
+
+                <RadioButton
                     android:id="@+id/q1c4"
-                    android:checked="false"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/q1op4" />
 
             </RadioGroup>
         </LinearLayout>
@@ -76,13 +82,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q2"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q2q"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
@@ -91,32 +101,32 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q2op1"
                     android:id="@+id/q2c1"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q2op2"
+                    android:checked="false"
+                    android:text="@string/q2op1" />
+
+                <RadioButton
                     android:id="@+id/q2c2"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q2op3"
+                    android:checked="false"
+                    android:text="@string/q2op2" />
+
+                <RadioButton
                     android:id="@+id/q2c3"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q2op4"
+                    android:checked="false"
+                    android:text="@string/q2op3" />
+
+                <RadioButton
                     android:id="@+id/q2c4"
-                    android:checked="false"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/q2op4" />
 
             </RadioGroup>
         </LinearLayout>
@@ -130,13 +140,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q3"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q3q"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
@@ -145,32 +159,32 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q3op1"
                     android:id="@+id/q3c1"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q3op2"
+                    android:checked="false"
+                    android:text="@string/q3op1" />
+
+                <RadioButton
                     android:id="@+id/q3c2"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q3op3"
+                    android:checked="false"
+                    android:text="@string/q3op2" />
+
+                <RadioButton
                     android:id="@+id/q3c3"
-                    android:checked="false"   />
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q3op4"
+                    android:checked="false"
+                    android:text="@string/q3op3" />
+
+                <RadioButton
                     android:id="@+id/q3c4"
-                    android:checked="false"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/q3op4" />
 
             </RadioGroup>
 
@@ -185,49 +199,45 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q4"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q4q"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
-            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="fill_parent"
+
+            <CheckBox
+                android:id="@+id/q4c1"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:text="@string/q4op1" />
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q4op1"
-                    android:id="@+id/q4c1"
-                    android:checked="false"/>
+            <CheckBox
+                android:id="@+id/q4c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q4op2" />
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q4op2"
-                    android:id="@+id/q4c2"
-                    android:checked="false"/>
+            <CheckBox
+                android:id="@+id/q4c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q4op3" />
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q4op3"
-                    android:id="@+id/q4c3"
-                    android:checked="false"/>
+            <CheckBox
+                android:id="@+id/q4c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q4op4" />
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q4op4"
-                    android:id="@+id/q4c4"
-                    android:checked="false"/>
 
-            </RadioGroup>
         </LinearLayout>
 
         <LinearLayout
@@ -239,13 +249,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q5"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q5q"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
@@ -254,32 +268,32 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q5op1"
                     android:id="@+id/q5c1"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q5op2"
+                    android:checked="false"
+                    android:text="@string/q5op1" />
+
+                <RadioButton
                     android:id="@+id/q5c2"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q5op3"
+                    android:checked="false"
+                    android:text="@string/q5op2" />
+
+                <RadioButton
                     android:id="@+id/q5c3"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q5op4"
+                    android:checked="false"
+                    android:text="@string/q5op3" />
+
+                <RadioButton
                     android:id="@+id/q5c4"
-                    android:checked="false"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/q5op4" />
 
             </RadioGroup>
         </LinearLayout>
@@ -293,13 +307,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q6"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q6q"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
@@ -308,32 +326,32 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q6op1"
                     android:id="@+id/q6c1"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q6op2"
+                    android:checked="false"
+                    android:text="@string/q6op1" />
+
+                <RadioButton
                     android:id="@+id/q6c2"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q6op3"
+                    android:checked="false"
+                    android:text="@string/q6op2" />
+
+                <RadioButton
                     android:id="@+id/q6c3"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q6op4"
+                    android:checked="false"
+                    android:text="@string/q6op3" />
+
+                <RadioButton
                     android:id="@+id/q6c4"
-                    android:checked="false"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/q6op4" />
 
             </RadioGroup>
         </LinearLayout>
@@ -346,14 +364,19 @@
 
             <TextView
                 android:layout_width="wrap_content"
+
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q7"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q7q"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
@@ -362,32 +385,32 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q7op1"
                     android:id="@+id/q7c1"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q7op2"
+                    android:checked="false"
+                    android:text="@string/q7op1" />
+
+                <RadioButton
                     android:id="@+id/q7c2"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q7op3"
+                    android:checked="false"
+                    android:text="@string/q7op2" />
+
+                <RadioButton
                     android:id="@+id/q7c3"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q7op4"
+                    android:checked="false"
+                    android:text="@string/q7op3" />
+
+                <RadioButton
                     android:id="@+id/q7c4"
-                    android:checked="false"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/q7op4" />
             </RadioGroup>
 
         </LinearLayout>
@@ -401,13 +424,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q8"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q8q"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
@@ -416,32 +443,32 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q8op1"
                     android:id="@+id/q8c1"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q8op2"
+                    android:checked="false"
+                    android:text="@string/q8op1" />
+
+                <RadioButton
                     android:id="@+id/q8c2"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q8op3"
+                    android:checked="false"
+                    android:text="@string/q8op2" />
+
+                <RadioButton
                     android:id="@+id/q8c3"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q8op4"
+                    android:checked="false"
+                    android:text="@string/q8op3" />
+
+                <RadioButton
                     android:id="@+id/q8c4"
-                    android:checked="false"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/q8op4" />
             </RadioGroup>
 
         </LinearLayout>
@@ -455,13 +482,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q9"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q9q"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
@@ -470,32 +501,32 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q9op1"
                     android:id="@+id/q9c1"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q9op2"
+                    android:checked="false"
+                    android:text="@string/q9op1" />
+
+                <RadioButton
                     android:id="@+id/q9c2"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q9op3"
+                    android:checked="false"
+                    android:text="@string/q9op2" />
+
+                <RadioButton
                     android:id="@+id/q9c3"
-                    android:checked="false"/>
-
-                <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/q9op4"
+                    android:checked="false"
+                    android:text="@string/q9op3" />
+
+                <RadioButton
                     android:id="@+id/q9c4"
-                    android:checked="false"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/q9op4" />
 
             </RadioGroup>
         </LinearLayout>
@@ -509,58 +540,38 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q10"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q10q"
+                android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
-            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="fill_parent"
+            <EditText
+                android:id="@+id/q10a"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q10op1"
-                    android:id="@+id/q10c1"
-                    android:checked="false"/>
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q10op2"
-                    android:id="@+id/q10c2"
-                    android:checked="false"/>
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q10op3"
-                    android:id="@+id/q10c3"
-                    android:checked="false"/>
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q10op4"
-                    android:id="@+id/q10c4"
-                    android:checked="false"/>
-
-            </RadioGroup>
+                android:layout_marginLeft="@dimen/lm"
+                android:hint="@string/hint"
+                android:imeOptions="actionDone"
+                android:inputType="text" />
         </LinearLayout>
 
         <Button
             android:id="@+id/but"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/but"
             android:layout_margin="@dimen/marg"
-            android:onClick="submit"/>
+            android:onClick="submit"
+            android:text="@string/but" />
 
     </LinearLayout>
+
+
 </ScrollView>

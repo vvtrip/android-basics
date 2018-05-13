@@ -26,7 +26,7 @@
 
 
     <string name="q4">Question 4</string>
-    <string name="q4q">Which one of these is not the capital of South Africa?</string>
+    <string name="q4q">Which of these is the capital of South Africa?</string>
     <string name="q4op1">Bloemfontein</string>
     <string name="q4op2">Cape Town</string>
     <string name="q4op3">Pretoria</string>
@@ -74,12 +74,9 @@
 
 
     <string name="q10">Question 10</string>
-    <string name="q10q">Which is the most populated state?</string>
-    <string name="q10op1">Goa</string>
-    <string name="q10op2">Bihar</string>
-    <string name="q10op3">Maharashtra</string>
-    <string name="q10op4">Uttar Pradesh</string>
+    <string name="q10q">What is the dialing code of India?</string>
+    <string name="hint">Enter here (include +)</string>
 
 
-     <string name="but">Submit</string>
+    <string name="but">Submit</string>
 </resources>
