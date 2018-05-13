@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="question1">Question 1</string>
+    <string name="q1">Question 1</string>
+    <string name="q1q">Which is the largest country by area?</string>
+    <string name="q1op1">Canada</string>
+    <string name="q1op2">USA</string>
+    <string name="q1op3">Russia</string>
+    <string name="q1op4">China</string>
+
+
+    <string name="q2">Question 2</string>
+    <string name="q2q">Which is the largest country by population?</string>
+    <string name="q2op1">India</string>
+    <string name="q2op2">China</string>
+    <string name="q2op3">Bangladesh</string>
+    <string name="q2op4">USA</string>
+
+
+    <string name="q3">Question 3</string>
+    <string name="q3q">What is the capital of Australia?</string>
+    <string name="q3op1">Sydney</string>
+    <string name="q3op2">Melbourne</string>
+    <string name="q3op3">Canberra</string>
+    <string name="q3op4">Perth</string>
+
+
+    <string name="q4">Question 4</string>
+    <string name="q4q">Which one of these is not the capital of South Africa?</string>
+    <string name="q4op1">Bloemfontein</string>
+    <string name="q4op2">Cape Town</string>
+    <string name="q4op3">Pretoria</string>
+    <string name="q4op4">Johannesberg</string>
+
+
+    <string name="q5">Question 5</string>
+    <string name="q5q">Which one of these doesn\'t have two capitals?</string>
+    <string name="q5op1">Kerala</string>
+    <string name="q5op2">Jammu and Kashmir</string>
+    <string name="q5op3">Maharashtra</string>
+    <string name="q5op4">Himachal Pradesh</string>
+
+
+    <string name="q6">Question 6</string>
+    <string name="q6q">Which one of these is also known as Godwin Austin?</string>
+    <string name="q6op1">Kangchenjunga</string>
+    <string name="q6op2">K2</string>
+    <string name="q6op3">Mount Kailash</string>
+    <string name="q6op4">Mount Everest</string>
+
+
+    <string name="q7">Question 7</string>
+    <string name="q7q">Which one of these rivers flows towards west into the Arabian sea?</string>
+    <string name="q7op1">Godawari</string>
+    <string name="q7op2">Narmada</string>
+    <string name="q7op3">Krishna</string>
+    <string name="q7op4">Bramhaputra</string>
+
+
+    <string name="q8">Question 8</string>
+    <string name="q8q">Which of these states has the best gender ratio based on 2011 census?</string>
+    <string name="q8op1">Kerala</string>
+    <string name="q8op2">Karnataka</string>
+    <string name="q8op3">Tamil Nadu</string>
+    <string name="q8op4">Andhra Pradesh</string>
+
+
+    <string name="q9">Question 9</string>
+    <string name="q9q">Which is the least populated state?</string>
+    <string name="q9op1">Goa</string>
+    <string name="q9op2">Arunachal Pradesh</string>
+    <string name="q9op3">Sikkim</string>
+    <string name="q9op4">Meghalaya</string>
+
+
+    <string name="q10">Question 10</string>
+    <string name="q10q">Which is the most populated state?</string>
+    <string name="q10op1">Goa</string>
+    <string name="q10op2">Bihar</string>
+    <string name="q10op3">Maharashtra</string>
+    <string name="q10op4">Uttar Pradesh</string>
+
+
+     <string name="but">Submit</string>
+</resources>
