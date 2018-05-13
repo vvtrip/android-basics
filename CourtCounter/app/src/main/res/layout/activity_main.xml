@@ -126,5 +126,5 @@
         android:layout_margin="@dimen/resetmgn"
         android:layout_weight="1"
         android:onClick="reset"
-        android:text="Reset" />
+        android:text="@string/reset" />
 </RelativeLayout>
