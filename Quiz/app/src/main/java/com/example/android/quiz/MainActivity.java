@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
     RadioButton q9c3;
     EditText q10a;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
         answer1 = q1c3.isChecked();
         if (answer1) {
             answer1_score = 1;
+        } else {
+            answer1_score = 0;
         }
 
         //question 2
@@ -66,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
         if (answer2) {
             answer2_score = 1;
         }
-
 
         //question 3
         Boolean answer3;
@@ -149,7 +149,6 @@ public class MainActivity extends AppCompatActivity {
         if (answer10.equals("+91")) {
             answer10_score = 1;
         }
-
 
         // final score
 

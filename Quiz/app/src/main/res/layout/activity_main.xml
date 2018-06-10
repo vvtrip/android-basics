@@ -13,7 +13,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -26,7 +25,6 @@
                 android:layout_marginLeft="@dimen/lm"
                 android:text="@string/q1"
                 android:textColor="@color/black"
-
                 android:textSize="@dimen/medium" />
 
             <TextView
@@ -37,7 +35,7 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
-            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            <RadioGroup
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -95,7 +93,7 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
-            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            <RadioGroup
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -153,7 +151,7 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
-            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            <RadioGroup
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -262,7 +260,7 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
-            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            <RadioGroup
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -320,7 +318,7 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
-            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            <RadioGroup
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -379,7 +377,7 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
-            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            <RadioGroup
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -437,7 +435,7 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
-            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            <RadioGroup
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -495,7 +493,7 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/medium" />
 
-            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            <RadioGroup
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -572,6 +570,4 @@
             android:text="@string/but" />
 
     </LinearLayout>
-
-
 </ScrollView>
