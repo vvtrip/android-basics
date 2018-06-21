@@ -1,5 +1,5 @@
 # Basic Android Apps
-## Developed as parts of Google India Scholarship program
+## Developed as parts of Google India Scholarship program(Phase 1 , Feb 2018 - May 2018)
 ## provided by Udacity for the Android Basics Nanodegree track
 
 
